@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Messages>
+  <ArrayMessages>
+    <!--<PackMessage>
+      <MessageName>PackTargetValue</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <MessageCategory>Pack</MessageCategory>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Pack Target Value</DisplayedMessageName>
+    </PackMessage>
+    <PackMessage>
+      <MessageName>PackTargetValue</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <MessageCategory>Pack</MessageCategory>
+      <DataLength>4</DataLength>
+      <DisplayedMessageName>Set Pack Target Value</DisplayedMessageName>
+    </PackMessage>
+    <PackMessage>
+      <MessageName>PackStatus</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <MessageCategory>Pack</MessageCategory>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Pack Status</DisplayedMessageName>
+    </PackMessage>-->
+
+    <ArrayMessage>
+      <MessageName>CloseContactorPermission</MessageName>
+      <MessageGroupId>Configuration</MessageGroupId>
+      <DataLength>2</DataLength>
+      <DisplayedMessageName>SET Close Contactor Permission</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>AlreadyFinishCharging</MessageName>
+      <MessageGroupId>Command</MessageGroupId>
+      <DataLength>5</DataLength>
+      <DisplayedMessageName>SET SOC/KWH/AH</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>PackSelection</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>3</DataLength>
+      <DisplayedMessageName>SET Selected Battery Pack ID</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>SelectedPackStatus</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Battery Pack State</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>PackVoltage</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Battery Pack Voltage</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>PackTemp</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Battery Pack Temp</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>SelectedPackCellVoltages1To4</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Cell Voltages</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>SelectedPackCellTemp1To4</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Cell Temperature</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>SelectedPackBalancingState</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Balancing State</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>SelectedPackWarrantyTracker</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Warranty Tracker</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>SelectedPackCellExtremeVoltageAndTemp</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Extreme Voltage And Temp</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>SelectedPackMaxChargeAndDischargeCurrent</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Max Charge/Discharge Current</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>PackSelection</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query All BatteryPack Values</DisplayedMessageName>
+    </ArrayMessage>
+
+    <ArrayMessage>
+      <MessageName></MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>***------Seperateor, Don't Click------***</DisplayedMessageName>
+    </ArrayMessage>
+
+    <ArrayMessage>
+      <MessageName>ResendAWE</MessageName>
+      <MessageGroupId>Command</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Ask String to Resend All AWE</DisplayedMessageName>
+    </ArrayMessage>
+
+    <ArrayMessage>
+      <MessageName>SetContactorState</MessageName>
+      <MessageGroupId>Command</MessageGroupId>
+      <DataLength>2</DataLength>
+      <DisplayedMessageName>SET String Contactor State</DisplayedMessageName>
+    </ArrayMessage>
+
+    <ArrayMessage>
+      <MessageName>StringSelection</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>3</DataLength>
+      <DisplayedMessageName>SET Selected String ID</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>StringTargetValue</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>8</DataLength>
+      <DisplayedMessageName>SET Target Voltage</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>StringState1</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query String State</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>StringTargetValue</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Target Voltage</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>StringCurrent</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query String Current</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>StringVoltage</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query String Voltage</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>StringTemp</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query String Temp</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>StringPowerEnergy</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query String Power Energy</DisplayedMessageName>
+    </ArrayMessage>
+
+    <ArrayMessage>
+      <MessageName>WarrantyData</MessageName>
+      <MessageGroupId>Warranty</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Query Pack Warranty Data</DisplayedMessageName>
+    </ArrayMessage>
+
+    <ArrayMessage>
+      <MessageName>Heartbeat</MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>Send Heartbeat Message</DisplayedMessageName>
+    </ArrayMessage>
+
+    <ArrayMessage>
+      <MessageName></MessageName>
+      <MessageGroupId>Data</MessageGroupId>
+      <DataLength>0</DataLength>
+      <DisplayedMessageName>***------Seperateor, Don't Click------***</DisplayedMessageName>
+    </ArrayMessage>
+
+    <!--<ArrayMessage>
+      <MessageName>OverVoltageAlarmWarningSettings</MessageName>
+      <MessageGroupId>Configuration</MessageGroupId>
+      <DataLength>8</DataLength>
+      <DisplayedMessageName>SET OverVoltageAlarmWarningSettings</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>UnderVoltageAlarmWarningSettings</MessageName>
+      <MessageGroupId>Configuration</MessageGroupId>
+      <DataLength>8</DataLength>
+      <DisplayedMessageName>SET UnderVoltageAlarmWarningSettings</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>OverTempAlarmWarningSettings</MessageName>
+      <MessageGroupId>Configuration</MessageGroupId>
+      <DataLength>8</DataLength>
+      <DisplayedMessageName>SET OverTempAlarmWarningSettings</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>UnderTempAlarmWarningSettings</MessageName>
+      <MessageGroupId>Configuration</MessageGroupId>
+      <DataLength>8</DataLength>
+      <DisplayedMessageName>SET UnderTempAlarmWarningSettings</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>HighCellDiffTempAlarmWarningSettings</MessageName>
+      <MessageGroupId>Configuration</MessageGroupId>
+      <DataLength>8</DataLength>
+      <DisplayedMessageName>SET HighCellDiffTempAlarmWarningSettings</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>HighCellTempRiseAlarmWarningSettings</MessageName>
+      <MessageGroupId>Configuration</MessageGroupId>
+      <DataLength>8</DataLength>
+      <DisplayedMessageName>SET HighCellTempRiseAlarmWarningSettings</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>HighChargeRateAlarmWarningSettings</MessageName>
+      <MessageGroupId>Configuration</MessageGroupId>
+      <DataLength>8</DataLength>
+      <DisplayedMessageName>SET HighChargeRateAlarmWarningSettings</DisplayedMessageName>
+    </ArrayMessage>
+    <ArrayMessage>
+      <MessageName>HighDischargeRateAlarmWarningSettings</MessageName>
+      <MessageGroupId>Configuration</MessageGroupId>
+      <DataLength>8</DataLength>
+      <DisplayedMessageName>SET HighDischargeRateAlarmWarningSettings</DisplayedMessageName>
+    </ArrayMessage>-->
+  </ArrayMessages>
+
+
+
+  <AutoSendMessage>
+    <!--<AutoMessage>
+      <MessageName>SelectedPackStatus</MessageName>
+    </AutoMessage>-->
+    <!--<AutoMessage>
+      <MessageName>PackVoltage</MessageName>
+    </AutoMessage>
+    <AutoMessage>
+      <MessageName>PackTemp</MessageName>
+    </AutoMessage>-->
+    <!--<AutoMessage>
+      <MessageName>SelectedPackCellVoltages1To4</MessageName>
+    </AutoMessage>
+    <AutoMessage>
+      <MessageName>SelectedPackCellTemp1To4</MessageName>
+    </AutoMessage>
+    <AutoMessage>
+      <MessageName>SelectedPackBalancingState</MessageName>
+    </AutoMessage>-->
+
+    <AutoMessage>
+      <MessageName>PackSelection</MessageName>
+    </AutoMessage>
+    <AutoMessage>
+      <MessageName>StringCurrent</MessageName>
+    </AutoMessage>
+    <AutoMessage>
+      <MessageName>StringVoltage</MessageName>
+    </AutoMessage>
+    <AutoMessage>
+      <MessageName>StringTemp</MessageName>
+    </AutoMessage>
+    <AutoMessage>
+      <MessageName>StringPowerEnergy</MessageName>
+    </AutoMessage>
+    <AutoMessage>
+      <MessageName>StringState1</MessageName>
+    </AutoMessage>
+  </AutoSendMessage>
+</Messages>
